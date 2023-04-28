@@ -18,6 +18,6 @@ correct_line cl(no_line,display_area,start_address_out,address_output);
 myRom chr (char_enable,address_output,data_out);
 piso ps(reset,data_out,clkdiv4,display_area,serial_output);
 makeRGB clr (reset,clkdiv4,display_area,serial_output,Rout,Gout,Bout);
-//bonus bns (clkdiv4,reset,fv,vsync,r1,g1,b1,Red,Green,Blue);
+
         
 endmodule 
