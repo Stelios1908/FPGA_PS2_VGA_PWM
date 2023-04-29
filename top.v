@@ -12,7 +12,7 @@ wire [3:0]no_line;
 
 pixel_clk pix (clk,reset,clkdiv4);
 kbd_protocol kbdp (reset, clkdiv4, ps2clk, ps2data, scancode,flag);
-scancode_decoder kbddec (flag,scancode,start_address_out,char_enable); 
+        scancode_decoder kbddec (clkdiv4,flag,scancode,start_address_out,char_enable); 
 vgasync syn (clkdiv4,reset,hsync,vsync,display_area,no_line);
 correct_line cl(no_line,display_area,start_address_out,address_output);
 myRom chr (char_enable,address_output,data_out);
