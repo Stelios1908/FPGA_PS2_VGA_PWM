@@ -1,0 +1,31 @@
+net clk loc=t9;
+net reset loc=k4;
+net ps2clk loc=b16;
+net ps2data loc=e13;
+
+net Rout[0] loc=c8; 
+net Rout[1] loc=d6; 
+net Rout[2] loc=b1;  
+net Gout[0] loc=a8;  
+net Gout[1] loc=a5;  
+net Gout[2] loc=c3; 
+net Bout[2] loc=d5; 
+net Bout[1] loc=e7; 
+net Bout[0] loc=c9;
+
+net hsync loc=b7;
+net vsync loc=d8;
+net pwm loc=m3;
+
+
+
+
+
+
+
+
+
+
+
+
+
