@@ -1,5 +1,7 @@
 # FPGA_PS2_VGA_PWM
 
+fpga :ΧSA-3S  and ΧSTend v.4.0
+
 we read characters x,f,g,q from a keyboard with ps2 protocol.
 
 The character is printed in the center of the screen.
